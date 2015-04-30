@@ -1,0 +1,7 @@
+# Some Files #
+###################
+*.gz
+*.geojson
+*.osc
+*.osm
+feedbacks-test.csv

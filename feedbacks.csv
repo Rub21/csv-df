@@ -1,0 +1,3369 @@
+id,subject_id,subject_type,notes,created_at,updated_at,"Type of problem (data, API, impossible route)",Mapbox issue #,"Status (fixed, can't fix, open)"
+103691,643665,Poi,"Unroutable Waypoint:
+Type: poi
+Name: The Ritz London
+ID:
+Location:[-0.14121025800705, 51.5072867239295]
+Poi:643665
+Byway:
+Waypoint before:
+Type: poi
+Name: The Egg & I
+ID:54713931
+Location:[-104.8208965, 41.1385564]
+Poi:569934
+Byway:
+Waypoint after:
+Type: geo
+Name: Idaho Falls
+ID:54713988
+Location:[-112.0341, 43.4666]
+Poi:
+Byway:
+Timestamp:2015-04-22 21:31:27 +0000",4/22/15 9:31:29 PM,4/22/15 9:31:29 PM,no routes between USA and GB,#155,can't fix
+103891,23041,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Lincoln Home National Historic Site
+ID:
+Location:[-89.644925, 39.797353]
+Poi:23041
+Byway:
+Waypoint before:
+Type: poi
+Name: Thorntons Inc
+ID:54714519
+Location:[-88.149988346336, 41.521595246188554]
+Poi:1876550
+Byway:
+Waypoint after:
+Type: geo
+Name: Peoria, Arizona, United States
+ID:54714038
+Location:[-112.2374, 33.5806]
+Poi:
+Byway:
+Timestamp:2015-04-22 21:44:04 +0000",4/22/15 9:44:06 PM,4/22/15 9:44:06 PM,,#156,closed
+103910,23041,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Lincoln Home National Historic Site
+ID:
+Location:[-89.644925, 39.797353]
+Poi:23041
+Byway:
+Waypoint before:
+Type: poi
+Name: Thorntons Inc
+ID:54714519
+Location:[-88.149988346336, 41.521595246188554]
+Poi:1876550
+Byway:
+Waypoint after:
+Type: geo
+Name: Peoria, Arizona, United States
+ID:54714038
+Location:[-112.2374, 33.5806]
+Poi:
+Byway:
+Timestamp:2015-04-22 21:44:22 +0000",4/22/15 9:44:24 PM,4/22/15 9:44:24 PM,,"#156, closed",
+103938,23041,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Lincoln Home National Historic Site
+ID:
+Location:[-89.644925, 39.797353]
+Poi:23041
+Byway:
+Waypoint before:
+Type: poi
+Name: Thorntons Inc
+ID:54714519
+Location:[-88.149988346336, 41.521595246188554]
+Poi:1876550
+Byway:
+Waypoint after:
+Type: geo
+Name: Peoria, Arizona, United States
+ID:54714038
+Location:[-112.2374, 33.5806]
+Poi:
+Byway:
+Timestamp:2015-04-22 21:45:45 +0000",4/22/15 9:45:47 PM,4/22/15 9:45:47 PM,,#156,
+103957,23041,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Lincoln Home National Historic Site
+ID:
+Location:[-89.644925, 39.797353]
+Poi:23041
+Byway:
+Waypoint before:
+Type: poi
+Name: Thorntons Inc
+ID:54714519
+Location:[-88.149988346336, 41.521595246188554]
+Poi:1876550
+Byway:
+Waypoint after:
+Type: poi
+Name: Gateway Arch
+ID:54715393
+Location:[-90.1854764, 38.6248073]
+Poi:3913
+Byway:
+Timestamp:2015-04-22 21:47:48 +0000",4/22/15 9:47:51 PM,4/22/15 9:47:51 PM,,#157,
+104453,2,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Destin
+ID:
+Location:[0.4888778, 44.23787]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 565 NW 24th St, Miami, FL
+ID:54717465
+Location:[-80.20443, 25.80014]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: New Orleans, Louisiana, United States
+ID:54717466
+Location:[-89.9354, 30.0533]
+Poi:
+Byway:
+Timestamp:2015-04-22 22:16:38 +0000",4/22/15 10:16:39 PM,4/22/15 10:16:39 PM,,,
+105066,3,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Norwegian Sea, South Padre Island, TX
+ID:
+Location:[-97.15962, 26.07491]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Norwegian Sea, South Padre Island, TX
+ID:
+Location:[-97.15962, 26.07491]
+Poi:
+Byway:
+Waypoint after:
+Type: poi
+Name: North Padre Island, S Padre Island Dr Corpus Christi TX
+ID:
+Location:[-97.22462, 27.58589]
+Poi:1760334
+Byway:
+Timestamp:2015-04-22 23:06:02 +0000",4/22/15 11:06:03 PM,4/22/15 11:06:03 PM,,,
+105067,4,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Hawaii, USA
+ID:
+Location:[-155.5827818, 19.8967662]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Montreal, QC, Canada
+ID:
+Location:[-73.567256, 45.5016889]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-22 23:06:07 +0000",4/22/15 11:06:08 PM,4/22/15 11:06:08 PM,,,
+105068,5,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Norwegian Sea, South Padre Island, TX
+ID:
+Location:[-97.15962, 26.07491]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Norwegian Sea, South Padre Island, TX
+ID:
+Location:[-97.15962, 26.07491]
+Poi:
+Byway:
+Waypoint after:
+Type: poi
+Name: North Padre Island, S Padre Island Dr Corpus Christi TX
+ID:
+Location:[-97.22462, 27.58589]
+Poi:1760334
+Byway:
+Timestamp:2015-04-22 23:06:14 +0000",4/22/15 11:06:14 PM,4/22/15 11:06:14 PM,,,
+105168,1760334,Poi,"Unroutable Waypoint:
+Type: poi
+Name: North Padre Island, S Padre Island Dr Corpus Christi TX
+ID:
+Location:[-97.22462, 27.58589]
+Poi:1760334
+Byway:
+Waypoint before:
+Type: geo
+Name: Norwegian Sea, South Padre Island, TX
+ID:
+Location:[-97.15961, 26.07491]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-22 23:12:54 +0000",4/22/15 11:12:54 PM,4/22/15 11:12:54 PM,,,
+105169,1760334,Poi,"Unroutable Waypoint:
+Type: poi
+Name: North Padre Island, S Padre Island Dr Corpus Christi TX
+ID:
+Location:[-97.22462, 27.58589]
+Poi:1760334
+Byway:
+Waypoint before:
+Type: geo
+Name: Norwegian Sea, South Padre Island, TX
+ID:
+Location:[-97.15961, 26.07491]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-22 23:13:08 +0000",4/22/15 11:13:08 PM,4/22/15 11:13:08 PM,,,
+105179,1760334,Poi,"Unroutable Waypoint:
+Type: poi
+Name: North Padre Island, S Padre Island Dr Corpus Christi TX
+ID:
+Location:[-97.22462, 27.58589]
+Poi:1760334
+Byway:
+Waypoint before:
+Type: geo
+Name: Norwegian Sea, South Padre Island, TX
+ID:
+Location:[-97.15961, 26.07491]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-22 23:13:37 +0000",4/22/15 11:13:38 PM,4/22/15 11:13:38 PM,,,
+105180,1760334,Poi,"Unroutable Waypoint:
+Type: poi
+Name: North Padre Island, S Padre Island Dr Corpus Christi TX
+ID:
+Location:[-97.22462, 27.58589]
+Poi:1760334
+Byway:
+Waypoint before:
+Type: geo
+Name: Norwegian Sea, South Padre Island, TX
+ID:
+Location:[-97.15961, 26.07491]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-22 23:14:28 +0000",4/22/15 11:14:29 PM,4/22/15 11:14:29 PM,,,
+105883,6,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: München, Bayern, Germany
+ID:
+Location:[11.571, 48.1345]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Amsterdam, Noord-Holland, Netherlands
+ID:
+Location:[4.8897, 52.374]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:00:15 +0000",4/23/15 12:00:16 AM,4/23/15 12:00:16 AM,,,
+106212,7,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Frankfurt am Main, DE
+ID:
+Location:[8.68417, 50.11552]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:18:36 +0000",4/23/15 12:18:37 AM,4/23/15 12:18:37 AM,,,
+106245,8,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Frankfurt am Main, DE
+ID:
+Location:[8.68417, 50.11552]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:19:31 +0000",4/23/15 12:19:32 AM,4/23/15 12:19:32 AM,,,
+106246,9,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Key West, Florida, United States
+ID:
+Location:[-81.7826, 24.5557]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: St. Petersburg Pier, 800 Second Ave NE Saint Petersburg FL
+ID:
+Location:[-82.62455, 27.77348]
+Poi:1540438
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:19:49 +0000",4/23/15 12:19:50 AM,4/23/15 12:19:50 AM,,,
+106247,10,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Key West, Florida, United States
+ID:
+Location:[-81.7826, 24.5557]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: St. Petersburg Pier, 800 Second Ave NE Saint Petersburg FL
+ID:
+Location:[-82.62455, 27.77348]
+Poi:1540438
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:20:10 +0000",4/23/15 12:20:11 AM,4/23/15 12:20:11 AM,,,
+106248,11,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Frankfurt am Main, DE
+ID:
+Location:[8.68417, 50.11552]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:20:17 +0000",4/23/15 12:20:18 AM,4/23/15 12:20:18 AM,,,
+106265,12,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Frankfurt am Main, DE
+ID:
+Location:[8.68417, 50.11552]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:21:54 +0000",4/23/15 12:21:55 AM,4/23/15 12:21:55 AM,,,
+106314,13,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Frankfurt am Main, DE
+ID:
+Location:[8.68417, 50.11552]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:23:08 +0000",4/23/15 12:23:09 AM,4/23/15 12:23:09 AM,,,
+106355,14,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Frankfurt am Main, DE
+ID:
+Location:[8.68417, 50.11552]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:24:21 +0000",4/23/15 12:24:21 AM,4/23/15 12:24:21 AM,,,
+106364,15,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Frankfurt am Main, DE
+ID:
+Location:[8.68417, 50.11552]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:25:32 +0000",4/23/15 12:25:33 AM,4/23/15 12:25:33 AM,,,
+106389,16,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Frankfurt Airport & Fair Haus, Dunatring 1 Frankfurt/Main 
+ID:
+Location:[8.556722, 50.11739]
+Poi:2717686
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:28:33 +0000",4/23/15 12:28:33 AM,4/23/15 12:28:33 AM,,,
+106438,17,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Frankfurt Airport & Fair Haus, Dunatring 1 Frankfurt/Main 
+ID:
+Location:[8.556722, 50.11739]
+Poi:2717686
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:31:11 +0000",4/23/15 12:31:12 AM,4/23/15 12:31:12 AM,,,
+106455,18,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg, Baden-Württemberg, Germany
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Frankfurt, Bautzen, Sachsen, Germany
+ID:
+Location:[14.42307, 51.1889]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:32:19 +0000",4/23/15 12:32:20 AM,4/23/15 12:32:20 AM,,,
+106528,19,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Frankfurt am Main, Hessen, Germany
+ID:54729676
+Location:[8.6718, 50.1103]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Frankfurt am Main, Hessen, Germany
+ID:54729677
+Location:[8.6718, 50.1103]
+Poi:
+Byway:
+Timestamp:2015-04-23 00:36:29 +0000",4/23/15 12:36:30 AM,4/23/15 12:36:30 AM,,,
+106529,20,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Heidelberg
+ID:
+Location:[8.6908, 49.4077]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Frankfurt am Main, Hessen, Germany
+ID:54729676
+Location:[8.6718, 50.1103]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Frankfurt am Main, Hessen, Germany
+ID:54729677
+Location:[8.6718, 50.1103]
+Poi:
+Byway:
+Timestamp:2015-04-23 00:37:10 +0000",4/23/15 12:37:10 AM,4/23/15 12:37:10 AM,,,
+106530,21,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Eglin AFB, FL, USA
+ID:
+Location:[-86.5533382, 30.4635583]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Scott Air Force Base
+ID:
+Location:[-89.868679077445, 38.5431979136711]
+Poi:1757869
+Byway:
+Waypoint after:
+Type: geo
+Name: New Orleans, LA, USA
+ID:
+Location:[-90.0715323, 29.95106579999999]
+Poi:
+Byway:
+Timestamp:2015-04-23 00:37:12 +0000",4/23/15 12:37:13 AM,4/23/15 12:37:13 AM,,,
+106539,22,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Eglin AFB, FL, USA
+ID:
+Location:[-86.5533382, 30.4635583]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Scott Air Force Base
+ID:
+Location:[-89.868679077445, 38.5431979136711]
+Poi:1757869
+Byway:
+Waypoint after:
+Type: geo
+Name: New Orleans, LA, USA
+ID:
+Location:[-90.0715323, 29.95106579999999]
+Poi:
+Byway:
+Timestamp:2015-04-23 00:37:26 +0000",4/23/15 12:37:27 AM,4/23/15 12:37:27 AM,,,
+106556,23,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Eglin AFB, FL, USA
+ID:
+Location:[-86.5533382, 30.4635583]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Scott Air Force Base
+ID:
+Location:[-89.868679077445, 38.5431979136711]
+Poi:1757869
+Byway:
+Waypoint after:
+Type: geo
+Name: New Orleans, LA, USA
+ID:
+Location:[-90.0715323, 29.95106579999999]
+Poi:
+Byway:
+Timestamp:2015-04-23 00:38:48 +0000",4/23/15 12:38:48 AM,4/23/15 12:38:48 AM,,,
+106557,24,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Eglin AFB, FL, USA
+ID:
+Location:[-86.5533382, 30.4635583]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Scott Air Force Base
+ID:
+Location:[-89.868679077445, 38.5431979136711]
+Poi:1757869
+Byway:
+Waypoint after:
+Type: geo
+Name: New Orleans, LA, USA
+ID:
+Location:[-90.0715323, 29.95106579999999]
+Poi:
+Byway:
+Timestamp:2015-04-23 00:38:56 +0000",4/23/15 12:38:56 AM,4/23/15 12:38:56 AM,,,
+106622,25,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Eglin AFB, FL, USA
+ID:
+Location:[-86.5533382, 30.4635583]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Scott Air Force Base
+ID:
+Location:[-89.868679077445, 38.5431979136711]
+Poi:1757869
+Byway:
+Waypoint after:
+Type: geo
+Name: New Orleans, LA, USA
+ID:
+Location:[-90.0715323, 29.9510658]
+Poi:
+Byway:
+Timestamp:2015-04-23 00:42:02 +0000",4/23/15 12:42:02 AM,4/23/15 12:42:02 AM,,,
+106631,26,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Eglin AFB, FL, USA
+ID:
+Location:[-86.5533382, 30.4635583]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Scott Air Force Base
+ID:
+Location:[-89.868679077445, 38.5431979136711]
+Poi:1757869
+Byway:
+Waypoint after:
+Type: geo
+Name: New Orleans, LA, USA
+ID:
+Location:[-90.0715323, 29.9510658]
+Poi:
+Byway:
+Timestamp:2015-04-23 00:42:53 +0000",4/23/15 12:42:53 AM,4/23/15 12:42:53 AM,,,
+106632,27,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Eglin AFB, FL, USA
+ID:54730016
+Location:[-86.5533382, 30.4635583]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Radcliff, KY, USA
+ID:54730015
+Location:[-85.9491298, 37.8403456]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:42:59 +0000",4/23/15 12:43:00 AM,4/23/15 12:43:00 AM,,,
+106641,28,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Eglin AFB, FL, USA
+ID:54730016
+Location:[-86.5533382, 30.4635583]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Radcliff, KY, USA
+ID:54730015
+Location:[-85.9491298, 37.8403456]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 00:43:16 +0000",4/23/15 12:43:17 AM,4/23/15 12:43:17 AM,,,
+107138,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: 1-9 Martin Rd Mansfield, ON
+ID:
+Location:[-80.06406, 44.11213]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:12:39 +0000",4/23/15 1:12:40 AM,4/23/15 1:12:40 AM,,,
+107139,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: 1-9 Martin Rd Mansfield, ON
+ID:
+Location:[-80.06406, 44.11213]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:12:47 +0000",4/23/15 1:12:48 AM,4/23/15 1:12:48 AM,,,
+107140,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: 1-9 Martin Rd Mansfield, ON
+ID:
+Location:[-80.06406, 44.11213]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:13:00 +0000",4/23/15 1:13:00 AM,4/23/15 1:13:00 AM,,,
+107149,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: 1-9 Martin Rd Mansfield, ON
+ID:
+Location:[-80.06406, 44.11213]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:13:46 +0000",4/23/15 1:13:46 AM,4/23/15 1:13:46 AM,,,
+107182,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: Martin Rd, Mansfield, ON, Canada
+ID:
+Location:[-80.06428, 44.11131]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:14:18 +0000",4/23/15 1:14:18 AM,4/23/15 1:14:18 AM,,,
+107191,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: Martin Rd, Mansfield, ON, Canada
+ID:
+Location:[-80.06428, 44.11131]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:14:35 +0000",4/23/15 1:14:35 AM,4/23/15 1:14:35 AM,,,
+107192,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: Martin Rd, Mansfield, ON, Canada
+ID:
+Location:[-80.06428, 44.11131]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:14:50 +0000",4/23/15 1:14:50 AM,4/23/15 1:14:50 AM,,,
+107217,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: Martin Rd, Mansfield, ON, Canada
+ID:
+Location:[-80.06428, 44.11131]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:16:19 +0000",4/23/15 1:16:20 AM,4/23/15 1:16:20 AM,,,
+107226,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: Martin Rd, Mansfield, ON, Canada
+ID:
+Location:[-80.06428, 44.11131]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:17:54 +0000",4/23/15 1:17:55 AM,4/23/15 1:17:55 AM,,,
+107243,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: Martin Rd, Mansfield, ON, Canada
+ID:
+Location:[-80.06428, 44.11131]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:18:56 +0000",4/23/15 1:18:57 AM,4/23/15 1:18:57 AM,,,
+107260,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: Martin Rd, Mansfield, ON, Canada
+ID:
+Location:[-80.06428, 44.11131]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:20:35 +0000",4/23/15 1:20:36 AM,4/23/15 1:20:36 AM,,,
+107325,468322,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Sarnia
+ID:
+Location:[30.88083, -29.83194]
+Poi:468322
+Byway:
+Waypoint before:
+Type: geo
+Name: 1-9 Martin Rd Mansfield, ON
+ID:
+Location:[-80.06404, 44.11209]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 01:26:43 +0000",4/23/15 1:26:43 AM,4/23/15 1:26:43 AM,,,
+107430,1535338,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Phoenix Sky Harbor International Airport 
+ID:
+Location:[-112.007788, 33.437269]
+Poi:1535338
+Byway:
+Waypoint before:
+Type: geo
+Name: Rome
+ID:54055781
+Location:[12.52858, 41.89611]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Barcelona
+ID:54055803
+Location:[2.028343, 41.75725]
+Poi:
+Byway:
+Timestamp:2015-04-23 01:33:44 +0000",4/23/15 1:33:45 AM,4/23/15 1:33:45 AM,,,
+107991,79730,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Disney's Polynesian Resort
+ID:
+Location:[-81.59133910000003, 28.4022917]
+Poi:79730
+Byway:
+Waypoint before:
+Type: poi
+Name: International Palms Resort & Conference Center Cocoa Beach
+ID:54720974
+Location:[-80.60892000000001, 28.333927]
+Poi:110696
+Byway:
+Waypoint after:
+Type: poi
+Name: Polynesian Resort Beach
+ID:54442631
+Location:[-81.58459, 28.40675]
+Poi:1733474
+Byway:
+Timestamp:2015-04-23 02:10:44 +0000",4/23/15 2:10:45 AM,4/23/15 2:10:45 AM,,,
+107992,79730,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Disney's Polynesian Resort
+ID:
+Location:[-81.59133910000003, 28.4022917]
+Poi:79730
+Byway:
+Waypoint before:
+Type: poi
+Name: International Palms Resort & Conference Center Cocoa Beach
+ID:54720974
+Location:[-80.60892000000001, 28.333927]
+Poi:110696
+Byway:
+Waypoint after:
+Type: poi
+Name: Polynesian Resort Beach
+ID:54442631
+Location:[-81.58459, 28.40675]
+Poi:1733474
+Byway:
+Timestamp:2015-04-23 02:10:50 +0000",4/23/15 2:10:51 AM,4/23/15 2:10:51 AM,,,
+107993,79730,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Disney's Polynesian Resort
+ID:
+Location:[-81.59133910000003, 28.4022917]
+Poi:79730
+Byway:
+Waypoint before:
+Type: poi
+Name: International Palms Resort & Conference Center Cocoa Beach
+ID:54720974
+Location:[-80.60892000000001, 28.333927]
+Poi:110696
+Byway:
+Waypoint after:
+Type: poi
+Name: Polynesian Resort Beach
+ID:54442631
+Location:[-81.58459, 28.40675]
+Poi:1733474
+Byway:
+Timestamp:2015-04-23 02:11:22 +0000",4/23/15 2:11:23 AM,4/23/15 2:11:23 AM,,,
+108058,29,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Niagara Falls, NY, USA
+ID:
+Location:[-79.0377388, 43.0962143]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: poi
+Name: Hersheypark
+ID:
+Location:[-76.6663889209453, 40.2886516539072]
+Poi:63657
+Byway:
+Timestamp:2015-04-23 02:13:55 +0000",4/23/15 2:13:56 AM,4/23/15 2:13:56 AM,,,
+108059,30,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Niagara Falls, NY, USA
+ID:
+Location:[-79.0377388, 43.0962143]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: poi
+Name: Hersheypark
+ID:
+Location:[-76.6663889209453, 40.2886516539072]
+Poi:63657
+Byway:
+Timestamp:2015-04-23 02:14:02 +0000",4/23/15 2:14:03 AM,4/23/15 2:14:03 AM,,,
+108164,31,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Chamonix, France
+ID:37517903
+Location:[6.869433, 45.9237]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Barcelona, Spain
+ID:37517902
+Location:[2.173404, 41.38506]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Milan, Italy
+ID:37517904
+Location:[9.185925, 45.46542]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:21:33 +0000",4/23/15 2:21:34 AM,4/23/15 2:21:34 AM,,,
+108189,32,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Chamonix, France
+ID:37517903
+Location:[6.869433, 45.9237]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Barcelona, Spain
+ID:37517902
+Location:[2.173404, 41.38506]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Milan, Italy
+ID:37517904
+Location:[9.185925, 45.46542]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:23:13 +0000",4/23/15 2:23:14 AM,4/23/15 2:23:14 AM,,,
+108190,33,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Chamonix, France
+ID:37517903
+Location:[6.869433, 45.9237]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Barcelona, Spain
+ID:37517902
+Location:[2.173404, 41.38506]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Milan, Italy
+ID:37517904
+Location:[9.185925, 45.46542]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:23:22 +0000",4/23/15 2:23:23 AM,4/23/15 2:23:23 AM,,,
+108207,34,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Delaware Crossing Scenic Byway
+ID:
+Location:[0.0, 0.0]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Field of Dreams Movie Site
+ID:
+Location:[-91.05357, 42.49786]
+Poi:47302
+Byway:
+Waypoint after:
+Type: poi
+Name: Wapsipinicon Mill
+ID:
+Location:[-91.89497, 42.46872]
+Poi:19026
+Byway:
+Timestamp:2015-04-23 02:24:23 +0000",4/23/15 2:24:24 AM,4/23/15 2:24:24 AM,,,
+108248,35,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Nashville, TN, US
+ID:54736009
+Location:[-86.78333, 36.16667]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 211 Morris Cir, Crum Lynne, PA
+ID:54736008
+Location:[-75.3381, 39.87313]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:26:58 +0000",4/23/15 2:26:59 AM,4/23/15 2:26:59 AM,,,
+108257,36,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Chamonix, France
+ID:37517903
+Location:[6.869433, 45.9237]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Barcelona, Spain
+ID:37517902
+Location:[2.173404, 41.38506]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Milan, Italy
+ID:37517904
+Location:[9.185925, 45.46542]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:27:28 +0000",4/23/15 2:27:28 AM,4/23/15 2:27:28 AM,,,
+108274,37,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Chamonix, France
+ID:37517903
+Location:[6.869433, 45.9237]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Barcelona, Spain
+ID:37517902
+Location:[2.173404, 41.38506]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Milan, Italy
+ID:37517904
+Location:[9.185925, 45.46542]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:28:22 +0000",4/23/15 2:28:23 AM,4/23/15 2:28:23 AM,,,
+108315,38,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Nashville, TN, US
+ID:54736009
+Location:[-86.78333, 36.16667]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 211 Morris Cir, Crum Lynne, PA
+ID:54736008
+Location:[-75.3381, 39.87313]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:29:49 +0000",4/23/15 2:29:50 AM,4/23/15 2:29:50 AM,,,
+108316,39,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Nashville, TN, US
+ID:54736009
+Location:[-86.78333, 36.16667]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 211 Morris Cir, Crum Lynne, PA
+ID:54736008
+Location:[-75.3381, 39.87313]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:29:52 +0000",4/23/15 2:29:53 AM,4/23/15 2:29:53 AM,,,
+108325,40,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Nashville, TN, US
+ID:54736009
+Location:[-86.78333, 36.16667]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 211 Morris Cir, Crum Lynne, PA
+ID:54736008
+Location:[-75.3381, 39.87313]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:29:59 +0000",4/23/15 2:30:00 AM,4/23/15 2:30:00 AM,,,
+108326,41,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Nashville, TN, US
+ID:54736009
+Location:[-86.78333, 36.16667]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 211 Morris Cir, Crum Lynne, PA
+ID:54736008
+Location:[-75.3381, 39.87313]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:30:02 +0000",4/23/15 2:30:04 AM,4/23/15 2:30:04 AM,,,
+108343,42,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Ottawa, ON, Canada
+ID:
+Location:[-75.69719309999999, 45.4215296]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Montreal, QC, Canada
+ID:
+Location:[-73.567256, 45.5016889]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:32:02 +0000",4/23/15 2:32:03 AM,4/23/15 2:32:03 AM,,,
+108344,43,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Ottawa, ON, Canada
+ID:
+Location:[-75.69719309999999, 45.4215296]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Montreal, QC, Canada
+ID:
+Location:[-73.567256, 45.5016889]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:32:12 +0000",4/23/15 2:32:13 AM,4/23/15 2:32:13 AM,,,
+108353,44,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Ottawa, ON, Canada
+ID:
+Location:[-75.69719309999999, 45.4215296]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Montreal, QC, Canada
+ID:
+Location:[-73.567256, 45.5016889]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:33:34 +0000",4/23/15 2:33:34 AM,4/23/15 2:33:34 AM,,,
+108354,45,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Ottawa, ON, Canada
+ID:
+Location:[-75.69719309999999, 45.4215296]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Montreal, QC, Canada
+ID:
+Location:[-73.567256, 45.5016889]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:33:56 +0000",4/23/15 2:33:57 AM,4/23/15 2:33:57 AM,,,
+108355,46,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Ottawa, ON, Canada
+ID:
+Location:[-75.69719309999999, 45.4215296]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Montreal, QC, Canada
+ID:
+Location:[-73.567256, 45.5016889]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:34:04 +0000",4/23/15 2:34:05 AM,4/23/15 2:34:05 AM,,,
+108372,47,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Ottawa, ON, Canada
+ID:
+Location:[-75.69719309999999, 45.4215296]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:54740968
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Montreal, QC, Canada
+ID:
+Location:[-73.567256, 45.5016889]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:35:53 +0000",4/23/15 2:35:53 AM,4/23/15 2:35:53 AM,,,
+108373,48,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Montreal, QC, Canada
+ID:
+Location:[-73.567256, 45.5016889]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:54740968
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Ottawa, ON, Canada
+ID:
+Location:[-75.69719309999999, 45.4215296]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:36:04 +0000",4/23/15 2:36:05 AM,4/23/15 2:36:05 AM,,,
+108390,49,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Ottawa, ON, Canada
+ID:
+Location:[-75.69719309999999, 45.4215296]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:54740968
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:36:43 +0000",4/23/15 2:36:44 AM,4/23/15 2:36:44 AM,,,
+108398,50,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Montreal, QC, Canada
+ID:
+Location:[-73.567256, 45.5016889]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:54740968
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:37:04 +0000",4/23/15 2:37:04 AM,4/23/15 2:37:04 AM,,,
+108416,51,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:54741137
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Augusta, ME, USA
+ID:
+Location:[-69.7794897, 44.3106241]
+Poi:
+Byway:
+Timestamp:2015-04-23 02:37:56 +0000",4/23/15 2:37:57 AM,4/23/15 2:37:57 AM,,,
+108433,1981588,Poi,"Unroutable Waypoint:
+Type: poi
+Name: The Ottawa Bagelshop
+ID:
+Location:[-75.7365798231138, 45.3988844826286]
+Poi:1981588
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: poi
+Name: Montreal Biodome
+ID:
+Location:[-73.5483607, 45.5590001]
+Poi:45559
+Byway:
+Timestamp:2015-04-23 02:39:34 +0000",4/23/15 2:39:34 AM,4/23/15 2:39:34 AM,,,
+108562,904763,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Electric Forest Festival, 5900 Water Road Rothbury MI
+ID:
+Location:[-86.36639, 43.53865]
+Poi:904763
+Byway:
+Waypoint before:
+Type: poi
+Name: Las Vegas Motor Speedway, Las Vegas Motor Speedway, 7000 Las Vegas Blvd N, Las Vegas, Nevada 89115 Las Vegas NV
+ID:
+Location:[-115.0107, 36.27297]
+Poi:19479
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:48:17 +0000",4/23/15 2:48:18 AM,4/23/15 2:48:18 AM,,,
+108563,904763,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Electric Forest Festival, 5900 Water Road Rothbury MI
+ID:
+Location:[-86.36639, 43.53865]
+Poi:904763
+Byway:
+Waypoint before:
+Type: poi
+Name: Las Vegas Motor Speedway, Las Vegas Motor Speedway, 7000 Las Vegas Blvd N, Las Vegas, Nevada 89115 Las Vegas NV
+ID:
+Location:[-115.0107, 36.27297]
+Poi:19479
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:48:31 +0000",4/23/15 2:48:32 AM,4/23/15 2:48:32 AM,,,
+108572,904763,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Electric Forest Festival, 5900 Water Road Rothbury MI
+ID:
+Location:[-86.36639, 43.53865]
+Poi:904763
+Byway:
+Waypoint before:
+Type: poi
+Name: Las Vegas Motor Speedway, Las Vegas Motor Speedway, 7000 Las Vegas Blvd N, Las Vegas, Nevada 89115 Las Vegas NV
+ID:
+Location:[-115.0107, 36.27297]
+Poi:19479
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:48:43 +0000",4/23/15 2:48:44 AM,4/23/15 2:48:44 AM,,,
+108573,52,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Rothbury, Michigan, United States
+ID:
+Location:[-86.3476, 43.5072]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Las Vegas Motor Speedway, Las Vegas Motor Speedway, 7000 Las Vegas Blvd N, Las Vegas, Nevada 89115 Las Vegas NV
+ID:
+Location:[-115.0107, 36.27297]
+Poi:19479
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:49:04 +0000",4/23/15 2:49:05 AM,4/23/15 2:49:05 AM,,,
+108582,25236,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Ottawa Jail Hostel
+ID:
+Location:[-75.688752, 45.424747]
+Poi:25236
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: poi
+Name: Montreal Science Centre
+ID:
+Location:[-73.551673, 45.504633]
+Poi:913378
+Byway:
+Timestamp:2015-04-23 02:49:40 +0000",4/23/15 2:49:41 AM,4/23/15 2:49:41 AM,,,
+108591,53,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Rothbury, Michigan, United States
+ID:
+Location:[-86.3476, 43.5072]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Las Vegas Motor Speedway, 7000 N Las Vegas Blvd Las Vegas, NV
+ID:
+Location:[-115.0107, 36.27297]
+Poi:19479
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 02:50:09 +0000",4/23/15 2:50:10 AM,4/23/15 2:50:10 AM,,,
+109498,64417,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Dodger Stadium
+ID:
+Location:[-118.245003, 34.072701]
+Poi:64417
+Byway:
+Waypoint before:
+Type: poi
+Name: Disneyland Hotel
+ID:54746125
+Location:[-117.926382, 33.812745]
+Poi:71870
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 03:41:22 +0000",4/23/15 3:41:22 AM,4/23/15 3:41:22 AM,,,
+109499,64417,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Dodger Stadium
+ID:
+Location:[-118.245003, 34.072701]
+Poi:64417
+Byway:
+Waypoint before:
+Type: poi
+Name: Disneyland Hotel
+ID:54746125
+Location:[-117.926382, 33.812745]
+Poi:71870
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 03:41:39 +0000",4/23/15 3:41:39 AM,4/23/15 3:41:39 AM,,,
+109540,37269,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Santa Monica Pier
+ID:
+Location:[-118.49610200000001, 34.0100844]
+Poi:37269
+Byway:
+Waypoint before:
+Type: poi
+Name: Disneyland Hotel
+ID:54746125
+Location:[-117.926382, 33.812745]
+Poi:71870
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 03:42:41 +0000",4/23/15 3:42:42 AM,4/23/15 3:42:42 AM,,,
+109909,54,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 1313 Disneyland Drive, Anaheim, CA 92802, United States
+ID:
+Location:[-117.919, 33.810486]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Kenmore, WA, USA
+ID:
+Location:[-122.2440148, 47.7573202]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 04:01:03 +0000",4/23/15 4:01:04 AM,4/23/15 4:01:04 AM,,,
+109966,55,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 1313 Disneyland Drive, Anaheim, CA 92802, United States
+ID:
+Location:[-117.918974, 33.812092]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 7525 Northeast 202nd Place, Kenmore, WA 98028, USA
+ID:
+Location:[-122.239633, 47.774463]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 04:04:37 +0000",4/23/15 4:04:38 AM,4/23/15 4:04:38 AM,,,
+110993,56,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Chicago, IL, USA
+ID:54751341
+Location:[-87.6297982, 41.8781136]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Chicago, IL, USA
+ID:54751340
+Location:[-87.6297982, 41.8781136]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 05:16:38 +0000",4/23/15 5:16:39 AM,4/23/15 5:16:39 AM,,,
+111436,57,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Albuquerque, NM, USA
+ID:
+Location:[-106.6055534, 35.0853336]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: San Diego Zoo Safari Park
+ID:
+Location:[-117.0021843, 33.0963683]
+Poi:59903
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 05:56:58 +0000",4/23/15 5:56:58 AM,4/23/15 5:56:58 AM,,,
+111437,58,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Albuquerque, NM, USA
+ID:
+Location:[-106.6055534, 35.0853336]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: San Diego Zoo Safari Park
+ID:
+Location:[-117.0021843, 33.0963683]
+Poi:59903
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 05:58:04 +0000",4/23/15 5:58:04 AM,4/23/15 5:58:04 AM,,,
+111466,59,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Albuquerque, NM, USA
+ID:
+Location:[-106.6055534, 35.0853336]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: San Diego Zoo Safari Park
+ID:
+Location:[-117.0021843, 33.0963683]
+Poi:59903
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 05:59:52 +0000",4/23/15 5:59:53 AM,4/23/15 5:59:53 AM,,,
+111467,60,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Albuquerque, NM, USA
+ID:
+Location:[-106.6055534, 35.0853336]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: San Diego Zoo Safari Park
+ID:
+Location:[-117.0021843, 33.0963683]
+Poi:59903
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 06:00:03 +0000",4/23/15 6:00:04 AM,4/23/15 6:00:04 AM,,,
+113155,61,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vancouver, British Columbia, Canada
+ID:
+Location:[-123.1193, 49.2497]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 59 The Pkwy, Beaumont Hills, NSW
+ID:
+Location:[150.9411, -33.69659]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 07:39:23 +0000",4/23/15 7:39:24 AM,4/23/15 7:39:24 AM,,,
+113191,62,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vancouver, British Columbia, Canada
+ID:
+Location:[-123.1193, 49.2497]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 59 The Pkwy, Beaumont Hills, NSW
+ID:
+Location:[150.9411, -33.69659]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 07:40:47 +0000",4/23/15 7:40:47 AM,4/23/15 7:40:47 AM,,,
+113640,63,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Sand
+ID:
+Location:[7.6133, 48.3828]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Santa Barbara
+ID:54756095
+Location:[-119.6982, 34.4208]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Portland, Oregon, United States
+ID:54755626
+Location:[-122.7282, 45.5801]
+Poi:
+Byway:
+Timestamp:2015-04-23 08:08:30 +0000",4/23/15 8:08:31 AM,4/23/15 8:08:31 AM,,,
+113949,64,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: New York, NY, USA
+ID:
+Location:[-74.0059413, 40.7127837]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Budapest, 1185 Hungary
+ID:
+Location:[19.252296, 47.438459]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 08:26:09 +0000",4/23/15 8:26:11 AM,4/23/15 8:26:11 AM,,,
+114413,65,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Graadt van Roggenweg, Utrecht, Netherlands
+ID:
+Location:[5.1007639, 52.087618]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Netherlands
+ID:
+Location:[5.109861, 52.089398]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 08:53:33 +0000",4/23/15 8:53:34 AM,4/23/15 8:53:34 AM,,,
+114449,66,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Graadt van Roggenweg 328, 3531 AH Utrecht, Netherlands
+ID:
+Location:[5.1014746, 52.0879916]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Netherlands
+ID:
+Location:[5.109861, 52.089398]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 08:55:06 +0000",4/23/15 8:55:07 AM,4/23/15 8:55:07 AM,,,
+114450,67,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Graadt van Roggenweg 328, 3531 AH Utrecht, Netherlands
+ID:
+Location:[5.1014746, 52.0879916]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Netherlands
+ID:
+Location:[5.109861, 52.089398]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 08:55:09 +0000",4/23/15 8:55:10 AM,4/23/15 8:55:10 AM,,,
+114451,68,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Graadt van Roggenweg 328, 3531 AH Utrecht, Netherlands
+ID:
+Location:[5.1014746, 52.0879916]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Netherlands
+ID:
+Location:[5.109861, 52.089398]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 08:55:12 +0000",4/23/15 8:55:13 AM,4/23/15 8:55:13 AM,,,
+114459,69,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Graadt van Roggenweg 328, 3531 AH Utrecht, Netherlands
+ID:
+Location:[5.1014746, 52.0879916]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Netherlands
+ID:
+Location:[5.109861, 52.089398]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 08:55:14 +0000",4/23/15 8:55:15 AM,4/23/15 8:55:15 AM,,,
+114460,70,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Graadt van Roggenweg 328, 3531 AH Utrecht, Netherlands
+ID:
+Location:[5.1014746, 52.0879916]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Netherlands
+ID:
+Location:[5.109861, 52.089398]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 08:55:16 +0000",4/23/15 8:55:16 AM,4/23/15 8:55:16 AM,,,
+114461,71,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Graadt van Roggenweg 328, 3531 AH Utrecht, Netherlands
+ID:
+Location:[5.1014746, 52.0879916]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Netherlands
+ID:
+Location:[5.109861, 52.089398]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 08:55:17 +0000",4/23/15 8:55:18 AM,4/23/15 8:55:18 AM,,,
+114987,72,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:20:18 +0000",4/23/15 9:20:19 AM,4/23/15 9:20:19 AM,,,
+115002,73,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:20:48 +0000",4/23/15 9:20:48 AM,4/23/15 9:20:48 AM,,,
+115010,74,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:21:51 +0000",4/23/15 9:21:52 AM,4/23/15 9:21:52 AM,,,
+115018,75,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Bali, Republic of Indonesia
+ID:
+Location:[115.188916, -8.4095178]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 09:22:24 +0000",4/23/15 9:22:25 AM,4/23/15 9:22:25 AM,,,
+115019,76,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Bali, Republic of Indonesia
+ID:
+Location:[115.188916, -8.4095178]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 09:22:30 +0000",4/23/15 9:22:30 AM,4/23/15 9:22:30 AM,,,
+115055,77,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:24:15 +0000",4/23/15 9:24:16 AM,4/23/15 9:24:16 AM,,,
+115056,78,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:24:29 +0000",4/23/15 9:24:29 AM,4/23/15 9:24:29 AM,,,
+115057,79,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:24:34 +0000",4/23/15 9:24:35 AM,4/23/15 9:24:35 AM,,,
+115058,80,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:24:40 +0000",4/23/15 9:24:40 AM,4/23/15 9:24:40 AM,,,
+115066,81,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:24:44 +0000",4/23/15 9:24:44 AM,4/23/15 9:24:44 AM,,,
+115067,82,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:24:47 +0000",4/23/15 9:24:48 AM,4/23/15 9:24:48 AM,,,
+115068,83,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:24:52 +0000",4/23/15 9:24:52 AM,4/23/15 9:24:52 AM,,,
+115069,84,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:24:55 +0000",4/23/15 9:24:56 AM,4/23/15 9:24:56 AM,,,
+115070,85,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:25:00 +0000",4/23/15 9:25:01 AM,4/23/15 9:25:01 AM,,,
+115078,86,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:25:06 +0000",4/23/15 9:25:06 AM,4/23/15 9:25:06 AM,,,
+115086,87,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Munich, Germany
+ID:
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:25:11 +0000",4/23/15 9:25:11 AM,4/23/15 9:25:11 AM,,,
+115094,88,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:54757191
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Prague, Czech Republic
+ID:54757190
+Location:[14.4378005, 50.0755381]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:26:04 +0000",4/23/15 9:26:04 AM,4/23/15 9:26:04 AM,,,
+115102,89,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:54757218
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Munich, Germany
+ID:54757217
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:26:47 +0000",4/23/15 9:26:48 AM,4/23/15 9:26:48 AM,,,
+115103,90,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:54757218
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Munich, Germany
+ID:54757217
+Location:[11.5819806, 48.1351253]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Vienna, Austria
+ID:
+Location:[16.3738189, 48.2081743]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:27:01 +0000",4/23/15 9:27:02 AM,4/23/15 9:27:02 AM,,,
+115167,91,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Vatican City
+ID:
+Location:[12.453389, 41.902916]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Rome, Italy
+ID:
+Location:[12.4963655, 41.9027835]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:29:31 +0000",4/23/15 9:29:32 AM,4/23/15 9:29:32 AM,,,
+115189,92,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:54757251
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Rome, Italy
+ID:54757250
+Location:[12.4963655, 41.9027835]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Vatican City
+ID:
+Location:[12.453389, 41.902916]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:30:15 +0000",4/23/15 9:30:16 AM,4/23/15 9:30:16 AM,,,
+115225,93,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Milan, Italy
+ID:
+Location:[9.1859243, 45.4654219]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Turin, Italy
+ID:
+Location:[7.686856499999999, 45.070312]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:32:26 +0000",4/23/15 9:32:27 AM,4/23/15 9:32:27 AM,,,
+115226,94,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Milan, Italy
+ID:
+Location:[9.1859243, 45.4654219]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Turin, Italy
+ID:
+Location:[7.686856499999999, 45.070312]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:32:45 +0000",4/23/15 9:32:46 AM,4/23/15 9:32:46 AM,,,
+115234,95,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Milan, Italy
+ID:
+Location:[9.1859243, 45.4654219]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Turin, Italy
+ID:
+Location:[7.6868565, 45.070312]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:33:16 +0000",4/23/15 9:33:17 AM,4/23/15 9:33:17 AM,,,
+115298,96,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: San Francisco, California, United States
+ID:54757351
+Location:[-122.4511, 37.7363]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Los Angeles, California, United States
+ID:54757350
+Location:[-118.2437, 34.0522]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Death Valley, California, United States
+ID:54757352
+Location:[-116.8653, 36.4573]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:37:06 +0000",4/23/15 9:37:07 AM,4/23/15 9:37:07 AM,,,
+115299,97,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: San Francisco, California, United States
+ID:54757351
+Location:[-122.4511, 37.7363]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Los Angeles, California, United States
+ID:54757350
+Location:[-118.2437, 34.0522]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Death Valley, California, United States
+ID:54757352
+Location:[-116.8653, 36.4573]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:37:12 +0000",4/23/15 9:37:12 AM,4/23/15 9:37:12 AM,,,
+115419,98,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Valencia, Valencia, Spain
+ID:
+Location:[-0.3762881, 39.4699075]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Barcelona, Barcelona, Spain
+ID:
+Location:[2.1734035, 41.3850639]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Málaga, Málaga, Spain
+ID:
+Location:[-4.4212655, 36.721261]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:43:54 +0000",4/23/15 9:43:55 AM,4/23/15 9:43:55 AM,,,
+115420,99,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Valencia, Valencia, Spain
+ID:
+Location:[-0.3762881, 39.4699075]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Barcelona, Barcelona, Spain
+ID:
+Location:[2.1734035, 41.3850639]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Timestamp:2015-04-23 09:44:02 +0000",4/23/15 9:44:03 AM,4/23/15 9:44:03 AM,,,
+115421,100,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 3417 Montfoort, Netherlands
+ID:
+Location:[4.9518586, 52.0362127]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Barcelona, Barcelona, Spain
+ID:
+Location:[2.1734035, 41.3850639]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 09:44:09 +0000",4/23/15 9:44:09 AM,4/23/15 9:44:09 AM,,,
+115922,101,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Washington, District of Columbia, United States
+ID:
+Location:[-77.0364, 38.8951]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Philadelphia, Pennsylvania, United States
+ID:
+Location:[-75.1638, 39.9523]
+Poi:
+Byway:
+Timestamp:2015-04-23 10:17:22 +0000",4/23/15 10:17:23 AM,4/23/15 10:17:23 AM,,,
+115935,102,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Washington, District of Columbia, United States
+ID:
+Location:[-77.0364, 38.8951]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Philadelphia, Pennsylvania, United States
+ID:
+Location:[-75.1638, 39.9523]
+Poi:
+Byway:
+Timestamp:2015-04-23 10:18:14 +0000",4/23/15 10:18:15 AM,4/23/15 10:18:15 AM,,,
+115954,103,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Washington, District of Columbia, United States
+ID:
+Location:[-77.0364, 38.8951]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Philadelphia, Pennsylvania, United States
+ID:
+Location:[-75.1638, 39.9523]
+Poi:
+Byway:
+Timestamp:2015-04-23 10:18:59 +0000",4/23/15 10:18:59 AM,4/23/15 10:18:59 AM,,,
+115961,104,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Washington, District of Columbia, United States
+ID:
+Location:[-77.0364, 38.8951]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Philadelphia, Pennsylvania, United States
+ID:
+Location:[-75.1638, 39.9523]
+Poi:
+Byway:
+Timestamp:2015-04-23 10:19:09 +0000",4/23/15 10:19:10 AM,4/23/15 10:19:10 AM,,,
+116010,105,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Montréal, Quebec, Canada
+ID:54758046
+Location:[-73.6825, 45.5001]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 800 Malleable Rd, Columbia, PA
+ID:54758045
+Location:[-76.48375, 40.03409]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 10:24:43 +0000",4/23/15 10:24:44 AM,4/23/15 10:24:44 AM,,,
+116011,106,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Montréal, Quebec, Canada
+ID:54758046
+Location:[-73.6825, 45.5001]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 800 Malleable Rd, Columbia, PA
+ID:54758045
+Location:[-76.48375, 40.03409]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 10:24:52 +0000",4/23/15 10:24:53 AM,4/23/15 10:24:53 AM,,,
+116858,107,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Paris
+ID:
+Location:[2.324382, 48.8647]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Miami, Florida, United States
+ID:54759270
+Location:[-80.3418, 25.8054]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 11:19:57 +0000",4/23/15 11:19:57 AM,4/23/15 11:19:57 AM,,,
+117525,108,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 92262, California, United States
+ID:
+Location:[-116.5629, 33.86357]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 86403, Arizona, United States
+ID:
+Location:[-114.3405, 34.48521]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: 90404, California, United States
+ID:
+Location:[-118.4716, 34.02645]
+Poi:
+Byway:
+Timestamp:2015-04-23 11:58:35 +0000",4/23/15 11:58:35 AM,4/23/15 11:58:35 AM,,,
+117538,109,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 92262, California, United States
+ID:
+Location:[-116.5629, 33.86357]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 86403, Arizona, United States
+ID:
+Location:[-114.3405, 34.48521]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: 90404, California, United States
+ID:
+Location:[-118.4716, 34.02645]
+Poi:
+Byway:
+Timestamp:2015-04-23 11:58:53 +0000",4/23/15 11:58:53 AM,4/23/15 11:58:53 AM,,,
+117539,110,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 92262, California, United States
+ID:
+Location:[-116.5629, 33.86357]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 86403, Arizona, United States
+ID:
+Location:[-114.3405, 34.48521]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: 86023, Arizona, United States
+ID:
+Location:[-112.156, 36.06842]
+Poi:
+Byway:
+Timestamp:2015-04-23 11:59:05 +0000",4/23/15 11:59:05 AM,4/23/15 11:59:05 AM,,,
+117702,551313,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Paris Mountain State Park
+ID:
+Location:[-82.365446, 34.925543]
+Poi:551313
+Byway:
+Waypoint before:
+Type: geo
+Name: Cambridge, Cambridgeshire, United Kingdom
+ID:54760702
+Location:[0.13996, 52.20313]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: BOLZANO/BOZEN, Italy
+ID:54760703
+Location:[11.23182, 46.65902]
+Poi:
+Byway:
+Timestamp:2015-04-23 12:13:22 +0000",4/23/15 12:13:23 PM,4/23/15 12:13:23 PM,,,
+117925,111,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Tennessee, Montigny-le-Bretonneux, Yvelines, France
+ID:
+Location:[2.044033, 48.77561]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Silverlake, Washington, United States
+ID:
+Location:[-122.8107, 46.2973]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 12:35:13 +0000",4/23/15 12:35:14 PM,4/23/15 12:35:14 PM,,,
+117942,112,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 92262, California, United States
+ID:
+Location:[-116.5629, 33.86357]
+Poi:
+Byway:
+Waypoint before:
+Type: poi
+Name: Lake Havasu State Park, 699 London Bridge Road Lake Havasu City AZ
+ID:
+Location:[-114.3555, 34.48922]
+Poi:2460
+Byway:
+Waypoint after:
+Type: geo
+Name: 90404, California, United States
+ID:
+Location:[-118.4716, 34.02645]
+Poi:
+Byway:
+Timestamp:2015-04-23 12:36:27 +0000",4/23/15 12:36:28 PM,4/23/15 12:36:28 PM,,,
+120294,113,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Gillette, WY, USA
+ID:54767251
+Location:[-105.5022205, 44.2910915]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Denver, CO, USA
+ID:54767250
+Location:[-104.990251, 39.7392358]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 14:10:37 +0000",4/23/15 2:10:38 PM,4/23/15 2:10:38 PM,,,
+120922,553226,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Attrap’Rêves Hotel
+ID:
+Location:[5.466694400000051, 43.3250317]
+Poi:553226
+Byway:
+Waypoint before:
+Type: poi
+Name: The Very Large Array - Visitors Center
+ID:54769635
+Location:[-107.622499, 34.073376]
+Poi:45447
+Byway:
+Waypoint after:
+Type: poi
+Name: Mardi Gras World, 1380 Port of New Orleans Pl New Orleans, LA
+ID:54769487
+Location:[-90.06139, 29.93483]
+Poi:46282
+Byway:
+Timestamp:2015-04-23 14:29:00 +0000",4/23/15 2:29:01 PM,4/23/15 2:29:01 PM,,,
+121547,114,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Salem, Virginia, United States
+ID:
+Location:[-80.0711, 37.2992]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 103 Market Point Dr, Greenville, South Carolina
+ID:
+Location:[-82.30649, 34.8201]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 14:46:14 +0000",4/23/15 2:46:15 PM,4/23/15 2:46:15 PM,,,
+121548,115,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Salem, Virginia, United States
+ID:
+Location:[-80.0711, 37.2992]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 103 Market Point Dr, Greenville, South Carolina
+ID:
+Location:[-82.30649, 34.8201]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 14:46:20 +0000",4/23/15 2:46:21 PM,4/23/15 2:46:21 PM,,,
+122460,116,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Danbury, Texas, United States
+ID:
+Location:[-95.3449, 29.2283]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 40 Market Point Dr, Greenville, South Carolina
+ID:
+Location:[-82.30677, 34.82043]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:18:46 +0000",4/23/15 3:18:47 PM,4/23/15 3:18:47 PM,,,
+122477,117,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 161 Sugar St, Newtown, Connecticut, United States
+ID:
+Location:[-73.33134, 41.38385]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 40 Market Point Dr, Greenville, South Carolina
+ID:
+Location:[-82.30677, 34.82043]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:19:07 +0000",4/23/15 3:19:08 PM,4/23/15 3:19:08 PM,,,
+122510,118,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Sunnyside, Washington, United States
+ID:
+Location:[-120.0086, 46.3237]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 3800-3840 Vera Cruz St, Fort Irwin, CA
+ID:
+Location:[-116.696, 35.26595]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:19:48 +0000",4/23/15 3:19:48 PM,4/23/15 3:19:48 PM,,,
+123410,119,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Artesia, NM 88210, USA
+ID:
+Location:[-104.4032962, 32.8423345]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:53:59 +0000",4/23/15 3:54:02 PM,4/23/15 3:54:02 PM,,,
+123411,120,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Artesia, NM 88210, USA
+ID:
+Location:[-104.4032962, 32.8423345]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:54:08 +0000",4/23/15 3:54:08 PM,4/23/15 3:54:08 PM,,,
+123412,121,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Artesia, NM 88210, USA
+ID:
+Location:[-104.4032962, 32.8423345]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:54:14 +0000",4/23/15 3:54:15 PM,4/23/15 3:54:15 PM,,,
+123413,122,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Artesia, NM 88210, USA
+ID:
+Location:[-104.4032962, 32.8423345]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:54:42 +0000",4/23/15 3:54:43 PM,4/23/15 3:54:43 PM,,,
+123414,123,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Indianapolis, IN, USA
+ID:
+Location:[-86.158068, 39.768403]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:57:13 +0000",4/23/15 3:57:14 PM,4/23/15 3:57:14 PM,,,
+123415,124,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Indianapolis, IN, USA
+ID:
+Location:[-86.158068, 39.768403]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:57:23 +0000",4/23/15 3:57:24 PM,4/23/15 3:57:24 PM,,,
+123416,125,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Indianapolis, IN, USA
+ID:
+Location:[-86.158068, 39.768403]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: Toronto, ON, Canada
+ID:
+Location:[-79.3831843, 43.653226]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 15:57:27 +0000",4/23/15 3:57:28 PM,4/23/15 3:57:28 PM,,,
+123612,126,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 27 Mission Ridge Trail, Brampton, Ontario, Canada
+ID:
+Location:[-79.67995, 43.78788]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 1125 Military Trail, Toronto, ON
+ID:
+Location:[-79.18668, 43.78271]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 16:07:26 +0000",4/23/15 4:07:26 PM,4/23/15 4:07:26 PM,,,
+125864,127,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 695 E Patriot Blvd, Reno, Nevada, United States
+ID:
+Location:[-119.7737, 39.45654]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 251 Goodfellow Ln, Ontario, Oregon, United States
+ID:
+Location:[-116.9435, 44.02719]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 17:19:15 +0000",4/23/15 5:19:16 PM,4/23/15 5:19:16 PM,,,
+125879,128,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: 695 E Patriot Blvd, Reno, Nevada, United States
+ID:
+Location:[-119.7737, 39.45654]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: 251 Goodfellow Ln, Ontario, Oregon, United States
+ID:
+Location:[-116.9435, 44.02719]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 17:19:49 +0000",4/23/15 5:19:50 PM,4/23/15 5:19:50 PM,,,
+126944,129,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Napa, Irvine, California, United States
+ID:
+Location:[-117.766, 33.72846]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: San Francisco, California, United States
+ID:54791108
+Location:[-122.4511, 37.7363]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Seattle, Washington, United States
+ID:54790044
+Location:[-122.3283, 47.6001]
+Poi:
+Byway:
+Timestamp:2015-04-23 17:49:27 +0000",4/23/15 5:49:28 PM,4/23/15 5:49:28 PM,,,
+126959,130,UnroutablePoint,"Unroutable Waypoint:
+Type: geo
+Name: Napa, Irvine, California, United States
+ID:
+Location:[-117.766, 33.72846]
+Poi:
+Byway:
+Waypoint before:
+Type: geo
+Name: San Francisco, California, United States
+ID:54791108
+Location:[-122.4511, 37.7363]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Seattle, Washington, United States
+ID:54790044
+Location:[-122.3283, 47.6001]
+Poi:
+Byway:
+Timestamp:2015-04-23 17:49:46 +0000",4/23/15 5:49:47 PM,4/23/15 5:49:47 PM,,,
+127534,1882959,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Veterans Park
+ID:
+Location:[-86.82863569784557, 33.18683738579913]
+Poi:1882959
+Byway:
+Waypoint before:
+Type: geo
+Name: 75 Acheson Ave, Washington, Pennsylvania
+ID:54792457
+Location:[-80.24326, 40.16205]
+Poi:
+Byway:
+Waypoint after:
+Type: poi
+Name: Peach Park
+ID:54793186
+Location:[-86.57403408314418, 32.80032322822407]
+Poi:1724875
+Byway:
+Timestamp:2015-04-23 18:07:44 +0000",4/23/15 6:07:45 PM,4/23/15 6:07:45 PM,,,
+127535,1882959,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Veterans Park
+ID:
+Location:[-86.82863569784557, 33.18683738579913]
+Poi:1882959
+Byway:
+Waypoint before:
+Type: geo
+Name: 75 Acheson Ave, Washington, Pennsylvania
+ID:54792457
+Location:[-80.24326, 40.16205]
+Poi:
+Byway:
+Waypoint after:
+Type: poi
+Name: Peach Park
+ID:54793186
+Location:[-86.57403408314418, 32.80032322822407]
+Poi:1724875
+Byway:
+Timestamp:2015-04-23 18:07:48 +0000",4/23/15 6:07:48 PM,4/23/15 6:07:48 PM,,,
+127550,1882959,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Veterans Park
+ID:
+Location:[-86.82863569784557, 33.18683738579913]
+Poi:1882959
+Byway:
+Waypoint before:
+Type: geo
+Name: 75 Acheson Ave, Washington, Pennsylvania
+ID:54792457
+Location:[-80.24326, 40.16205]
+Poi:
+Byway:
+Waypoint after:
+Type: poi
+Name: Peach Park
+ID:54793186
+Location:[-86.57403408314418, 32.80032322822407]
+Poi:1724875
+Byway:
+Timestamp:2015-04-23 18:07:57 +0000",4/23/15 6:07:57 PM,4/23/15 6:07:57 PM,,,
+127625,7937,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Mepkin Abbey
+ID:
+Location:[-79.94427, 33.11524]
+Poi:7937
+Byway:
+Waypoint before:
+Type: geo
+Name: 2-4 Ocean Green Dr Kiawah Island, SC
+ID:
+Location:[-80.08382, 32.60707]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 18:12:39 +0000",4/23/15 6:12:40 PM,4/23/15 6:12:40 PM,,,
+127636,7937,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Mepkin Abbey
+ID:
+Location:[-79.94427, 33.11524]
+Poi:7937
+Byway:
+Waypoint before:
+Type: geo
+Name: 2-4 Ocean Green Dr Kiawah Island, SC
+ID:
+Location:[-80.08382, 32.60707]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 18:12:45 +0000",4/23/15 6:12:46 PM,4/23/15 6:12:46 PM,,,
+127695,7937,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Mepkin Abbey
+ID:
+Location:[-79.94427, 33.11524]
+Poi:7937
+Byway:
+Waypoint before:
+Type: geo
+Name: 2-4 Ocean Green Dr Kiawah Island, SC
+ID:
+Location:[-80.08382, 32.60707]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 18:13:27 +0000",4/23/15 6:13:27 PM,4/23/15 6:13:27 PM,,,
+127736,7937,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Mepkin Abbey
+ID:
+Location:[-79.94427, 33.11524]
+Poi:7937
+Byway:
+Waypoint before:
+Type: geo
+Name: 2-4 Ocean Green Dr Kiawah Island, SC
+ID:
+Location:[-80.08382, 32.60707]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 18:14:27 +0000",4/23/15 6:14:27 PM,4/23/15 6:14:27 PM,,,
+127753,7937,Poi,"Unroutable Waypoint:
+Type: poi
+Name: Mepkin Abbey
+ID:
+Location:[-79.94427, 33.11524]
+Poi:7937
+Byway:
+Waypoint before:
+Type: geo
+Name: 2-4 Ocean Green Dr Kiawah Island, SC
+ID:
+Location:[-80.08382, 32.60707]
+Poi:
+Byway:
+Waypoint after:
+
+Timestamp:2015-04-23 18:15:28 +0000",4/23/15 6:15:28 PM,4/23/15 6:15:28 PM,,,
+127866,912425,Poi,"Unroutable Waypoint:
+Type: poi
+Name: The Great Barrier Reef
+ID:
+Location:[146.7524406, -19.2219516]
+Poi:912425
+Byway:
+Waypoint before:
+Type: geo
+Name: Sydney, New South Wales, Australia
+ID:54794063
+Location:[151.207, -33.86749]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Melbourne, Victoria, Australia
+ID:54794064
+Location:[144.9633, -37.81411]
+Poi:
+Byway:
+Timestamp:2015-04-23 18:17:53 +0000",4/23/15 6:17:53 PM,4/23/15 6:17:53 PM,,,
+127867,912425,Poi,"Unroutable Waypoint:
+Type: poi
+Name: The Great Barrier Reef
+ID:
+Location:[146.7524406, -19.2219516]
+Poi:912425
+Byway:
+Waypoint before:
+Type: geo
+Name: Sydney, New South Wales, Australia
+ID:54794063
+Location:[151.207, -33.86749]
+Poi:
+Byway:
+Waypoint after:
+Type: geo
+Name: Melbourne, Victoria, Australia
+ID:54794064
+Location:[144.9633, -37.81411]
+Poi:
+Byway:
+Timestamp:2015-04-23 18:18:02 +0000",4/23/15 6:18:02 PM,4/23/15 6:18:02 PM,,,
