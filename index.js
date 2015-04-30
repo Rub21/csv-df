@@ -3,12 +3,10 @@ var csv = require('csv-parser')
 var _ = require('underscore');
 var OSRM = require('osrm-client');
 var osrm = new OSRM("http://router.project-osrm.org/");
-
 var spreadsheets = [];
 var rqt = fs.createReadStream('feedbacks.csv')
 	.pipe(csv())
 	.on('data', function(data) {
-		//console.log(data.id);
 		var element = {
 			"id": data.id,
 			"subject_id": data.subject_id,
@@ -18,13 +16,12 @@ var rqt = fs.createReadStream('feedbacks.csv')
 			"updated_at": data.updated_at
 		}
 		var array_notes = data.notes.replace(/\n/g, "*#").split("*#");
-		//console.log(array_notes);
 		var notes = {
 			'Unroutable _Waypoint': array_notes[0].split(":")[1],
 			'Type': array_notes[1].split(":")[1],
 			'Name': array_notes[2].split(":")[1],
 			'ID': array_notes[3].split(":")[1],
-			'Location': array_notes[4].split(":")[1],
+			'Location': array_notes[4].split(":")[1].replace("[", "").replace("]", "").replace(" ", "").split(","),
 			'Poi': array_notes[5].split(":")[1],
 			'Byway': array_notes[6].split(":")[1],
 			waypoint_before: {},
@@ -81,15 +78,34 @@ var rqt = fs.createReadStream('feedbacks.csv')
 	});
 
 rqt.on('finish', function() {
-	//console.log(spreadsheets);
-
 	_.each(spreadsheets, function(element) {
 		var coor_start = element.notes.waypoint_before.Location.reverse().toString();
+		var coor_via = element.notes.Location.reverse().toString();
 		var coor_end = element.notes.waypoint_after.Location.reverse().toString();
-		var url = "http://map.project-osrm.org/?hl=de&loc=" + coor_start + "&loc=" + coor_end;
-		console.log(element.id + ", " + url);
+
+
+		if (coor_end == '') {
+			var url_start_via = "http://map.project-osrm.org/?hl=de&loc=" + coor_start + "&loc=" + coor_via;
+			url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
+			console.log(element.id + "|-- " + "| " + url_start_via + "|-- ");
+
+		} else {
+
+			var url_start_via_end = "http://map.project-osrm.org/?hl=de&loc=" + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
+			url_start_via_end = '=HYPERLINK("' + url_start_via_end + '","url_start_via_end")';
+
+			var url_start_via = "http://map.project-osrm.org/?hl=de&loc=" + coor_start + "&loc=" + coor_via;
+			url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
+
+			var url_via_end = "http://map.project-osrm.org/?hl=de&loc=" + coor_via + "&loc=" + coor_end;
+			url_via_end = '=HYPERLINK("' + url_via_end + '","url_via_end")';
+
+			console.log(element.id + "| " + url_start_via_end + "| " + url_start_via + "| " + url_via_end);
+
+
+		}
+
+
 
 	});
-
-
 });
