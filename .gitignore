@@ -4,4 +4,4 @@
 *.geojson
 *.osc
 *.osm
-feedbacks-test.csv
+*.csv

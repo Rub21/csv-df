@@ -78,6 +78,7 @@ var rqt = fs.createReadStream('feedbacks.csv')
 	});
 
 rqt.on('finish', function() {
+	var text = ""
 	_.each(spreadsheets, function(element) {
 		var coor_start = element.notes.waypoint_before.Location.reverse().toString();
 		var coor_via = element.notes.Location.reverse().toString();
@@ -87,7 +88,7 @@ rqt.on('finish', function() {
 		if (coor_end == '') {
 			var url_start_via = "http://map.project-osrm.org/?hl=de&loc=" + coor_start + "&loc=" + coor_via;
 			url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
-			console.log(element.id + "|-- " + "| " + url_start_via + "|-- ");
+			text += element.id + "|-- " + "| " + url_start_via + "|-- " + "\n";
 
 		} else {
 
@@ -100,7 +101,7 @@ rqt.on('finish', function() {
 			var url_via_end = "http://map.project-osrm.org/?hl=de&loc=" + coor_via + "&loc=" + coor_end;
 			url_via_end = '=HYPERLINK("' + url_via_end + '","url_via_end")';
 
-			console.log(element.id + "| " + url_start_via_end + "| " + url_start_via + "| " + url_via_end);
+			text += element.id + "| " + url_start_via_end + "| " + url_start_via + "| " + url_via_end + "\n";
 
 
 		}
@@ -108,4 +109,12 @@ rqt.on('finish', function() {
 
 
 	});
+	fs.writeFile("link-routes.csv", text, function(err) {
+		if (err) {
+			return console.log(err);
+		}
+		console.log("The file was saved!");
+	});
+
+
 });
