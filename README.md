@@ -21,5 +21,5 @@ After run , it will create a csv file called `link-routes.csv`, open that file u
 ![image](https://cloud.githubusercontent.com/assets/1152236/7558933/f330312e-f7cb-11e4-8dc2-75f82255ad54.png)
 
 
-Copy the text from cvs file and paste in spreadsheet in web.
+Copy the text from cvs file and paste in spreadsheet in web, you can check the id to corroborate if those links are in the same row in spreadsheet.
 
