@@ -4,6 +4,10 @@ var _ = require('underscore');
 var OSRM = require('osrm-client');
 var osrm = new OSRM("http://router.project-osrm.org/");
 var spreadsheets = [];
+
+var world = JSON.parse(fs.readFileSync('world.geojson', 'utf8'));
+
+console.log(world);
 var rqt = fs.createReadStream('feedbacks.csv')
 	.pipe(csv())
 	.on('data', function(data) {
@@ -80,33 +84,69 @@ var rqt = fs.createReadStream('feedbacks.csv')
 rqt.on('finish', function() {
 	var text = ""
 	_.each(spreadsheets, function(element) {
-		var coor_start = element.notes.waypoint_before.Location.reverse().toString();
-		var coor_via = element.notes.Location.reverse().toString();
-		var coor_end = element.notes.waypoint_after.Location.reverse().toString();
+
+		var coor_start = element.notes.waypoint_before.Location;
+		var coor_via = element.notes.Location;
+		var coor_end = element.notes.waypoint_after.Location;
+		var bandera_arr = false;
+		// console.log(coor_start.length>0 ? true : false);
+		// console.log(coor_via.length>0 ? true : false);
+		// console.log(coor_end.length>0 ? true : false);
+		_.each(world.features, function(val) {
+			var v = coor_end.length>0 ? pointinpolygon(coor_start, val.geometry.coordinates): true && coor_via.length>0 ? pointinpolygon(coor_via, val.geometry.coordinates): true && coor_end.length>0 ? pointinpolygon(coor_end, val.geometry.coordinates):true;
+			//console.log(v);
+			bandera_arr = bandera_arr || v;
+		});
+		console.log(bandera_arr);
+		coor_start = element.notes.waypoint_before.Location.reverse().toString();
+		coor_via = element.notes.Location.reverse().toString();
+		coor_end = element.notes.waypoint_after.Location.reverse().toString();
+
+		if (bandera_arr) {
+
+			if (coor_end == '') {
+				var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
+				url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
+				text += element.id + "| Routing  |-- " + "| " + url_start_via + "|-- " + "\n";
+
+			} else {
+
+				var url_start_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
+				url_start_via_end = '=HYPERLINK("' + url_start_via_end + '","url_start_via_end")';
+
+				var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
+				url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
+
+				var url_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_via + "&loc=" + coor_end;
+				url_via_end = '=HYPERLINK("' + url_via_end + '","url_via_end")';
+
+				text += element.id + "| Routing | " + url_start_via_end + "| " + url_start_via + "| " + url_via_end + "\n";
 
 
-		if (coor_end == '') {
-			var url_start_via = "http://map.project-osrm.org/?hl=de&loc=" + coor_start + "&loc=" + coor_via;
-			url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
-			text += element.id + "|-- " + "| " + url_start_via + "|-- " + "\n";
-
+			}
 		} else {
 
-			var url_start_via_end = "http://map.project-osrm.org/?hl=de&loc=" + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
-			url_start_via_end = '=HYPERLINK("' + url_start_via_end + '","url_start_via_end")';
+			if (coor_end == '') {
+				var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
+				url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
+				text += element.id + "| No routing  |-- " + "| " + url_start_via + "|-- " + "\n";
 
-			var url_start_via = "http://map.project-osrm.org/?hl=de&loc=" + coor_start + "&loc=" + coor_via;
-			url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
+			} else {
 
-			var url_via_end = "http://map.project-osrm.org/?hl=de&loc=" + coor_via + "&loc=" + coor_end;
-			url_via_end = '=HYPERLINK("' + url_via_end + '","url_via_end")';
+				var url_start_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
+				url_start_via_end = '=HYPERLINK("' + url_start_via_end + '","url_start_via_end")';
 
-			text += element.id + "| " + url_start_via_end + "| " + url_start_via + "| " + url_via_end + "\n";
+				var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
+				url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
+
+				var url_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_via + "&loc=" + coor_end;
+				url_via_end = '=HYPERLINK("' + url_via_end + '","url_via_end")';
+
+				text += element.id + "| No routing | " + url_start_via_end + "| " + url_start_via + "| " + url_via_end + "\n";
 
 
+			}
 		}
-
-
 
 	});
 	fs.writeFile("link-routes.csv", text, function(err) {
@@ -118,3 +158,19 @@ rqt.on('finish', function() {
 
 
 });
+
+
+function pointinpolygon(point, vs) {
+	var x = point[0],
+		y = point[1];
+	var inside = false;
+	for (var i = 0, j = vs.length - 1; i < vs.length; j = i++) {
+		var xi = vs[i][0],
+			yi = vs[i][1];
+		var xj = vs[j][0],
+			yj = vs[j][1];
+		var intersect = ((yi > y) != (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+		if (intersect) inside = !inside;
+	}
+	return inside;
+}
