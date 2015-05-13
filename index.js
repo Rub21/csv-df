@@ -4,10 +4,7 @@ var _ = require('underscore');
 var OSRM = require('osrm-client');
 var osrm = new OSRM("http://router.project-osrm.org/");
 var spreadsheets = [];
-
 var world = JSON.parse(fs.readFileSync('world.geojson', 'utf8'));
-
-console.log(world);
 var rqt = fs.createReadStream('feedbacks.csv')
 	.pipe(csv())
 	.on('data', function(data) {
@@ -89,64 +86,39 @@ rqt.on('finish', function() {
 		var coor_via = element.notes.Location;
 		var coor_end = element.notes.waypoint_after.Location;
 		var bandera_arr = false;
-		// console.log(coor_start.length>0 ? true : false);
-		// console.log(coor_via.length>0 ? true : false);
-		// console.log(coor_end.length>0 ? true : false);
 		_.each(world.features, function(val) {
-			var v = coor_end.length>0 ? pointinpolygon(coor_start, val.geometry.coordinates): true && coor_via.length>0 ? pointinpolygon(coor_via, val.geometry.coordinates): true && coor_end.length>0 ? pointinpolygon(coor_end, val.geometry.coordinates):true;
-			//console.log(v);
+			var v = (coor_end.length > 0 ? pointinpolygon(coor_start, val.geometry.coordinates) : true) && (coor_via.length > 0 ? pointinpolygon(coor_via, val.geometry.coordinates) : true) && (coor_end.length > 0 ? pointinpolygon(coor_end, val.geometry.coordinates) : true);
 			bandera_arr = bandera_arr || v;
 		});
-		console.log(bandera_arr);
 		coor_start = element.notes.waypoint_before.Location.reverse().toString();
 		coor_via = element.notes.Location.reverse().toString();
 		coor_end = element.notes.waypoint_after.Location.reverse().toString();
 
-		if (bandera_arr) {
+		var routing = "Routing";
 
-			if (coor_end == '') {
-				var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
-				url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
-				text += element.id + "| Routing  |-- " + "| " + url_start_via + "|-- " + "\n";
-
-			} else {
-
-				var url_start_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
-				url_start_via_end = '=HYPERLINK("' + url_start_via_end + '","url_start_via_end")';
-
-				var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
-				url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
-
-				var url_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_via + "&loc=" + coor_end;
-				url_via_end = '=HYPERLINK("' + url_via_end + '","url_via_end")';
-
-				text += element.id + "| Routing | " + url_start_via_end + "| " + url_start_via + "| " + url_via_end + "\n";
-
-
-			}
-		} else {
-
-			if (coor_end == '') {
-				var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
-				url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
-				text += element.id + "| No routing  |-- " + "| " + url_start_via + "|-- " + "\n";
-
-			} else {
-
-				var url_start_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
-				url_start_via_end = '=HYPERLINK("' + url_start_via_end + '","url_start_via_end")';
-
-				var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
-				url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
-
-				var url_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_via + "&loc=" + coor_end;
-				url_via_end = '=HYPERLINK("' + url_via_end + '","url_via_end")';
-
-				text += element.id + "| No routing | " + url_start_via_end + "| " + url_start_via + "| " + url_via_end + "\n";
-
-
-			}
+		if (!bandera_arr) {
+			routing = "No Routing";
 		}
+
+		if (coor_end == '') {
+			var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
+			url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
+			text += element.id + "|" + routing + "|-- " + "| " + url_start_via + "|-- " + "\n";
+		} else {
+			var url_start_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
+			url_start_via_end = '=HYPERLINK("' + url_start_via_end + '","url_start_via_end")';
+
+			var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
+			url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
+
+			var url_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_via + "&loc=" + coor_end;
+			url_via_end = '=HYPERLINK("' + url_via_end + '","url_via_end")';
+
+			text += element.id + "|" + routing + "| " + url_start_via_end + "| " + url_start_via + "| " + url_via_end + "\n";
+
+
+		}
+
 
 	});
 	fs.writeFile("link-routes.csv", text, function(err) {

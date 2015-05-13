@@ -1,7 +1,6 @@
 # Some Files #
 ###################
 *.gz
-*.geojson
 *.osc
 *.osm
-*.csv
+
