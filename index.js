@@ -3,8 +3,12 @@ var csv = require('csv-parser')
 var _ = require('underscore');
 var OSRM = require('osrm-client');
 var osrm = new OSRM("http://router.project-osrm.org/");
+var url = "http://mape.project-osrm.org/?hl=en&loc=";
+var obj_routing = {};
+
 var spreadsheets = [];
 var world = JSON.parse(fs.readFileSync('world.geojson', 'utf8'));
+fs.writeFile("link-routes.csv", "ID | Map evaluation | API evaluation | url_start_via_end |	url_start_via | url_via_end+ \n", function(err) {});
 var rqt = fs.createReadStream('feedbacks.csv')
 	.pipe(csv())
 	.on('data', function(data) {
@@ -90,47 +94,65 @@ rqt.on('finish', function() {
 			var v = (coor_end.length > 0 ? pointinpolygon(coor_start, val.geometry.coordinates) : true) && (coor_via.length > 0 ? pointinpolygon(coor_via, val.geometry.coordinates) : true) && (coor_end.length > 0 ? pointinpolygon(coor_end, val.geometry.coordinates) : true);
 			bandera_arr = bandera_arr || v;
 		});
-		coor_start = element.notes.waypoint_before.Location.reverse().toString();
-		coor_via = element.notes.Location.reverse().toString();
-		coor_end = element.notes.waypoint_after.Location.reverse().toString();
 
-		var routing = "Routing";
+		coor_start = element.notes.waypoint_before.Location.reverse();
+		coor_via = element.notes.Location.reverse();
+		coor_end = element.notes.waypoint_after.Location.reverse();
 
+		var routing_continents = "";
 		if (!bandera_arr) {
-			routing = "No Routing";
+			routing_continents = "No Routing";
 		}
 
+		var url_routing = "";
+		var query = {};
 		if (coor_end == '') {
-			var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
+			var url_start_via = url + coor_start + "&loc=" + coor_via;
 			url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
-			text += element.id + "|" + routing + "|-- " + "| " + url_start_via + "|-- " + "\n";
+			url_routing = "|-- " + "| " + url_start_via + "|-- ";
+			query = {
+				coordinates: [
+					coor_start,
+					coor_via
+				]
+			};
 		} else {
-			var url_start_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
+			var url_start_via_end = url + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
 			url_start_via_end = '=HYPERLINK("' + url_start_via_end + '","url_start_via_end")';
 
-			var url_start_via = "http://map.project-osrm.org/?hl=en&loc=" + coor_start + "&loc=" + coor_via;
+			var url_start_via = url + coor_start + "&loc=" + coor_via;
 			url_start_via = '=HYPERLINK("' + url_start_via + '","url_start_via")';
 
-			var url_via_end = "http://map.project-osrm.org/?hl=en&loc=" + coor_via + "&loc=" + coor_end;
+			var url_via_end = url + coor_via + "&loc=" + coor_end;
 			url_via_end = '=HYPERLINK("' + url_via_end + '","url_via_end")';
-
-			text += element.id + "|" + routing + "| " + url_start_via_end + "| " + url_start_via + "| " + url_via_end + "\n";
-
-
+			url_routing = "| " + url_start_via_end + "| " + url_start_via + "| " + url_via_end;
+			query = {
+				coordinates: [
+					coor_start,
+					coor_via,
+					coor_end
+				]
+			};
 		}
 
+		osrm.route(query, function(err, result) {
+			console.log(result.route_summary);
+			if (result.route_summary !== undefined) {
+				var t = element.id + " | " + routing_continents + "|  " + url_routing + "\n";
+				fs.appendFile('link-routes.csv', t, function(err) {});
+
+			} else {
+				var t = element.id + " | " + routing_continents + "|  No Routing " + url_routing + "\n";
+				fs.appendFile('link-routes.csv', t, function(err) {});
+			}
+
+		});
 
 	});
-	fs.writeFile("link-routes.csv", text, function(err) {
-		if (err) {
-			return console.log(err);
-		}
-		console.log("The file was saved!");
-	});
+
 
 
 });
-
 
 function pointinpolygon(point, vs) {
 	var x = point[0],
