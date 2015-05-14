@@ -128,12 +128,13 @@ rqt.on('finish', function() {
 			};
 		}
 		osrm.route(query, function(err, result) {
+			console.log("- " + element.id + " Done!");
 			if (result.route_summary !== undefined) {
 				status = "fixed";
-				var t = element.id + " | " + routing_continents + "|  " + url_routing + "| " + status + " |" + issue + " \n";
+				var t = element.id + "| " + status + " |" + issue + " | " + routing_continents + "|  " + url_routing + " \n";
 				fs.appendFile(argv.file.split('.')[0] + "-processed.csv", t, function(err) {});
 			} else {
-				var t = element.id + " | " + routing_continents + "|  no routing " + url_routing + "| " + status + " | " + issue + "\n";
+				var t = element.id + "| " + status + " | " + issue + " | " + routing_continents + "|  no routing " + url_routing + "\n";
 				fs.appendFile(argv.file.split('.')[0] + "-processed.csv", t, function(err) {});
 			}
 		});

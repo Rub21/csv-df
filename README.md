@@ -14,9 +14,9 @@
 `node index.js --file=namefile.csv`
 
 
-After run , it will create a csv file called `namefile-processed.csv`, open that file in LibreOffice using the next configuration.
+it might take a few minutes. 
 
-![image](https://cloud.githubusercontent.com/assets/1152236/7558933/f330312e-f7cb-11e4-8dc2-75f82255ad54.png)
+After run , it will create a csv file called `namefile-processed.csv`, open that file in LibreOffice using [the configuration.](https://cloud.githubusercontent.com/assets/1152236/7558933/f330312e-f7cb-11e4-8dc2-75f82255ad54.png)
 
 Sort by column id and copy, also sort the spreadsheet in web by id and paste, check out the row if each id is considering each other.
 
