@@ -95,17 +95,17 @@ rqt.on('finish', function() {
 		coor_end = element.notes.waypoint_after.Location.reverse();
 		var status = "";
 		var routing_continents = "";
+		var issue = "";
 		if (!isrouting_continents) {
-			routing_continents = "No Routing";
+			routing_continents = "no routing";
 			status = "won't fix";
+			issue = "impossible route";
 		}
 
 		var url_routing = "";
 		var query = {};
 		if (coor_end.length === 0) {
-			var url_start_via = url + coor_start + "&loc=" + coor_via;
-			url_start_via = '=HYPERLINK("' + url_start_via + '","Start-Via")';
-			url_routing = "|-- | " + url_start_via + "|-- ";
+			url_routing = '| -- | =HYPERLINK("' + url + coor_start + "&loc=" + coor_via + '","Start-Via") | -- ';
 			query = {
 				coordinates: [
 					coor_start,
@@ -113,14 +113,9 @@ rqt.on('finish', function() {
 				]
 			};
 		} else {
-			var url_start_via_end = url + coor_start + "&loc=" + coor_via + "&loc=" + coor_end;
-			url_start_via_end = '=HYPERLINK("' + url_start_via_end + '","Start-Via-End")';
-
-			var url_start_via = url + coor_start + "&loc=" + coor_via;
-			url_start_via = '=HYPERLINK("' + url_start_via + '","Start-Via")';
-
-			var url_via_end = url + coor_via + "&loc=" + coor_end;
-			url_via_end = '=HYPERLINK("' + url_via_end + '","Via-End")';
+			var url_start_via_end = '=HYPERLINK("' + url + coor_start + "&loc=" + coor_via + "&loc=" + coor_end + '","Start-Via-End")';
+			var url_start_via = '=HYPERLINK("' + url + coor_start + "&loc=" + coor_via + '","Start-Via")';
+			var url_via_end = '=HYPERLINK("' + url + coor_via + "&loc=" + coor_end + '","Via-End")';
 			url_routing = "| " + url_start_via_end + "| " + url_start_via + "| " + url_via_end;
 			query = {
 				coordinates: [
@@ -134,10 +129,10 @@ rqt.on('finish', function() {
 		osrm.route(query, function(err, result) {
 			if (result.route_summary !== undefined) {
 				status = "fixed";
-				var t = element.id + " | " + routing_continents + "|  Routing  " + url_routing + "| " + status + " | \n";
+				var t = element.id + " | " + routing_continents + "|  " + url_routing + "| " + status + " |" + issue + " \n";
 				fs.appendFile('link-routes.csv', t, function(err) {});
 			} else {
-				var t = element.id + " | " + routing_continents + "|  No Routing " + url_routing + "| " + status + " | \n";
+				var t = element.id + " | " + routing_continents + "|  no routing " + url_routing + "| " + status + " | " + issue + "\n";
 				fs.appendFile('link-routes.csv', t, function(err) {});
 			}
 		});
