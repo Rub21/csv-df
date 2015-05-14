@@ -1,15 +1,14 @@
-# csv-direccionfeedback
-
+# Processing direccion feedback csv file
 
 ### how to run
 
-`git clone https://github.com/Rub21/csv-direccionfeedback.git`
+`git clone https://github.com/Rub21/csv-df.git`
 
-`cd csv-direccionfeedback`
+`cd csv-df`
 
 `npm install`
 
-[Download the spreadsheet](https://cloud.githubusercontent.com/assets/1152236/7626916/0fe16e96-fa2e-11e4-9c03-220a7f602412.png) in csv format on`csv-direccionfeedback` directory:
+[Download the spreadsheet](https://cloud.githubusercontent.com/assets/1152236/7626916/0fe16e96-fa2e-11e4-9c03-220a7f602412.png) in csv format on`csv-df` directory:
 
 `node index.js --file=namefile.csv`
 
