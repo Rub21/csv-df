@@ -14,7 +14,7 @@
 `node index.js --file=namefile.csv`
 
 
-After run , it will create a csv file called `lnamefile-processed.csv`, open that file in LibreOffice using the next configuration.
+After run , it will create a csv file called `namefile-processed.csv`, open that file in LibreOffice using the next configuration.
 
 ![image](https://cloud.githubusercontent.com/assets/1152236/7558933/f330312e-f7cb-11e4-8dc2-75f82255ad54.png)
 
