@@ -9,17 +9,15 @@
 
 `npm install`
 
+[Download the spreadsheet](https://cloud.githubusercontent.com/assets/1152236/7626916/0fe16e96-fa2e-11e4-9c03-220a7f602412.png) in csv format on`csv-direccionfeedback` directory:
 
-Download the spreadsheet in csv format in `csv-direccionfeedback` directory and save as `feedbacks.csv` and then run:
-
-
-`node index.js`
+`node index.js --file=namefile.csv`
 
 
-After run , it will create a csv file called `link-routes.csv`, open that file using the next configuration.
+After run , it will create a csv file called `lnamefile-processed.csv`, open that file in LibreOffice using the next configuration.
 
 ![image](https://cloud.githubusercontent.com/assets/1152236/7558933/f330312e-f7cb-11e4-8dc2-75f82255ad54.png)
 
+Sort by column id and copy, also sort the spreadsheet in web by id and paste, check out the row if each id is considering each other.
 
-Copy the text from cvs file and paste in spreadsheet in web, you can check the id to corroborate if those links are in the same row in spreadsheet.
 

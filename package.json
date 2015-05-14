@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "csv-parser": "^1.5.2",
+    "optimist": "^0.6.1",
     "osrm-client": "0.0.9",
     "underscore": "^1.8.3"
   }

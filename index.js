@@ -1,13 +1,15 @@
 var fs = require('fs');
 var csv = require('csv-parser')
 var _ = require('underscore');
+var argv = require('optimist').argv;
 var OSRM = require('osrm-client');
 var osrm = new OSRM("http://router.project-osrm.org/");
 var url = "http://map.project-osrm.org/?hl=en&loc=";
 var spreadsheets = [];
 var world = JSON.parse(fs.readFileSync('world.geojson', 'utf8'));
-fs.writeFile("link-routes.csv", "ID | Map evaluation | API evaluation | url_start_via_end |	url_start_via | url_via_end | status | issue description \n", function(err) {});
-var rqt = fs.createReadStream('feedbacks.csv')
+//fs.writeFile("link-routes.csv", "ID | Map evaluation | API evaluation | URL-Start-Via-End |	URL-Start-Via | URL-Via-End | status | issue description \n", function(err) {});
+fs.writeFile(argv.file.split('.')[0] + "-processed.csv", "", function(err) {});
+var rqt = fs.createReadStream(argv.file)
 	.pipe(csv())
 	.on('data', function(data) {
 		var element = {
@@ -125,15 +127,14 @@ rqt.on('finish', function() {
 				]
 			};
 		}
-
 		osrm.route(query, function(err, result) {
 			if (result.route_summary !== undefined) {
 				status = "fixed";
 				var t = element.id + " | " + routing_continents + "|  " + url_routing + "| " + status + " |" + issue + " \n";
-				fs.appendFile('link-routes.csv', t, function(err) {});
+				fs.appendFile(argv.file.split('.')[0] + "-processed.csv", t, function(err) {});
 			} else {
 				var t = element.id + " | " + routing_continents + "|  no routing " + url_routing + "| " + status + " | " + issue + "\n";
-				fs.appendFile('link-routes.csv', t, function(err) {});
+				fs.appendFile(argv.file.split('.')[0] + "-processed.csv", t, function(err) {});
 			}
 		});
 	});
